@@ -40,7 +40,7 @@ def get_gold_price():
         driver.get("https://milli.gold/")
         
         # Wait for the page to load completely
-        time.sleep(5)
+        time.sleep(30)
         
         # Extract gold price using JavaScript execution
         try:
